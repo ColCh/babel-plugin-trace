@@ -1,0 +1,16 @@
+{
+  "name": "babel-plugin-trace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "24.0.11",
+    "babel-core": "6.26.3",
+    "babel-plugin-tester": "6.0.1",
+    "jest": "24.7.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:clean:fixtures": "rm __fixtures__/**/output.js"
+  }
+}
